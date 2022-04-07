@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShuffleBagDotNet", "ShuffleBagDotNet.csproj", "{67C16A88-95F7-4A0A-8C10-505C4A3BF6B5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "..\Tests\Tests.csproj", "{4AA1DC58-21F9-4F70-9957-7D17AAABD870}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{67C16A88-95F7-4A0A-8C10-505C4A3BF6B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{67C16A88-95F7-4A0A-8C10-505C4A3BF6B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{67C16A88-95F7-4A0A-8C10-505C4A3BF6B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AA1DC58-21F9-4F70-9957-7D17AAABD870}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AA1DC58-21F9-4F70-9957-7D17AAABD870}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AA1DC58-21F9-4F70-9957-7D17AAABD870}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AA1DC58-21F9-4F70-9957-7D17AAABD870}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

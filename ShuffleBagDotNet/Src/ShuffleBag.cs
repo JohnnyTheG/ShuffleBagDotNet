@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ShuffleBagDotNet
+﻿namespace ShuffleBagDotNet
 {
     public class ShuffleBag<T>
     {
@@ -32,11 +26,6 @@ namespace ShuffleBagDotNet
         /// Whether the shuffle bag is empty of not.
         /// </summary>
         public bool IsEmpty { get { return shuffleBag.Count == 0; } }
-
-        /// <summary>
-        /// Exception thrown when attempting to get a value from the bag while empty.
-        /// </summary>
-        public class ShuffleBagEmptyException : Exception { public ShuffleBagEmptyException(string? message) : base(message) { } };
 
         /// <summary>
         /// Initialise the bag for use.
