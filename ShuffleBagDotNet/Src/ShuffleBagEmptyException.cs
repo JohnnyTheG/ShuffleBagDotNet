@@ -1,4 +1,6 @@
-﻿namespace ShuffleBagDotNet
+﻿using System;
+
+namespace ShuffleBagDotNet
 {
     /// <summary>
     /// Exception thrown when attempting to get a value from the bag while empty.

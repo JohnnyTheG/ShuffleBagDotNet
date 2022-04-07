@@ -1,4 +1,7 @@
-﻿namespace ShuffleBagDotNet
+﻿using System;
+using System.Collections.Generic;
+
+namespace ShuffleBagDotNet
 {
     public class ShuffleBag<T>
     {
